@@ -30,7 +30,7 @@ then
         echo "This table Exist enter another name"
 fi
 done
-touch $1/$tableName
+touch $1/$tableName 
 flag=1
 while ((flag==1))
 do
@@ -77,7 +77,8 @@ do
 		1) sec_arr[i]="int"
 			dataTypeRow+="${sec_arr[i]}\t"		
 			break;;
-		2)sec_arr[i]="string"
+			
+		2)sec_arr[i]="string" 
 			dataTypeRow+="${sec_arr[i]}\t"
 			break ;;
 	esac

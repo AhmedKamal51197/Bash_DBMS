@@ -38,7 +38,7 @@ then
      echo "Table must not begining with number or special character except _"
      flag=1
      # validate for that table name must be unique
-elif [ -d $answer ]
+elif [ -d db/$answer ]
 then
         flag=1
         echo "This Database Exist enter another name"
